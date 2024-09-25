@@ -1,7 +1,7 @@
 ---
 title: Interface de Gestion de Covoiturage pour Campus Universitaire
-publishDate: 2023-11-01 00:00:00
-img: /assets/acc_fin.png
+publishDate: 2024-03-30 00:00:00
+img: /assets/pagedacceuil.jpeg
 img_alt: Interface utilisateur pour la gestion de covoiturage universitaire
 description: |
   Développement d'une interface web dynamique pour une plateforme de covoiturage destinée aux étudiants d'un campus universitaire. Le projet inclut la conception de la base de données, le développement backend en PHP, et le frontend en HTML/CSS.
@@ -13,27 +13,27 @@ tags:
   - HTML/CSS
 ---
 
-### 📝 Introduction
+#### 📝 Introduction
 
 Ce projet consiste à développer une interface web pour la gestion d'un service de covoiturage au sein d'un campus universitaire. L'interface permet aux étudiants de s'inscrire comme conducteurs ou passagers et de gérer leurs trajets de manière efficace et sécurisée.
 
-### 🎯 Objectifs du Projet
+#### 🎯 Objectifs du Projet
 
 - **Concevoir une base de données relationnelle** adaptée à la gestion de covoiturage.
 - **Développer une interface utilisateur** conviviale pour interagir avec la base de données.
 - **Implémenter des fonctionnalités backend en PHP** pour la logique métier.
 - **Créer un frontend responsive** en HTML et CSS pour une accessibilité sur tous les appareils.
 
-### 🔧 Configuration et Installation
+#### 🔧 Configuration et Installation
 
-#### Prérequis
+##### Prérequis
 
 - **Serveur Web** (Apache/Nginx)
 - **PHP** version 7.4 ou supérieure
 - **MySQL** pour la gestion de la base de données
 - **Git** pour le versionnement du code
 
-#### Installation
+##### Installation
 
 1. **Clonage du dépôt :**
 
@@ -62,14 +62,14 @@ Ce projet consiste à développer une interface web pour la gestion d'un service
    composer install
    ```
 
-### 🖥️ Utilisation de l'Interface
+#### 🖥️ Utilisation de l'Interface
 
 - **Page d'accueil :** Vue d'ensemble des trajets disponibles et accès rapide aux fonctionnalités principales.
 - **Inscription / Connexion :** Authentification des utilisateurs pour accéder à leurs profils et gérer leurs trajets.
 - **Publication de trajets :** Interface pour les conducteurs pour ajouter de nouveaux trajets.
 - **Recherche de trajets :** Passagers peuvent chercher et réserver des trajets selon divers critères.
 
-### 🛠️ Développement
+#### 🛠️ Développement
 
 #### Backend
 

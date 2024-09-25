@@ -1,6 +1,6 @@
 ---
 title: API de Planification d'Itinéraires sécurisés pour la Micromobilité
-publishDate: 2020-03-02 00:00:00
+publishDate: 2024-04-11 00:00:00
 img: /assets/WhatsApp Image 2024-08-23 at 4.15.04 p.m..jpeg
 img_alt: Safe routes for micromobility devices
 description: |
@@ -11,13 +11,13 @@ tags:
   - Sécurité
 ---
 
-# API de Planification d'Itinéraires sécurisés pour la Micromobilité 🚲📱
+#### API de Planification d'Itinéraires sécurisés pour la Micromobilité 🚲📱
 
-## 📝 Résumé 
+##### 📝 Résumé 
 
 L'API de Planification d'Itinéraires sécurisés pour la Micromobilité vise à résoudre le problème croissant des accidents impliquant des dispositifs de micromobilité sur le campus de Pessac-Talence-Gradignan, notamment parmi les jeunes. L'objectif est de développer une API innovante capable de calculer dynamiquement des itinéraires sûrs pour les utilisateurs de trottinettes électriques et de vélos. En tenant compte de paramètres cruciaux tels que le trafic, l'éclairage, la météo et les données en temps réel, l'API fournira des itinéraires optimisés et sécurisés adaptés aux besoins spécifiques des utilisateurs. Cette initiative favorise les déplacements écologiques et sûrs tout en améliorant l'expérience globale de mobilité.
 
-## 📋 Spécifications
+##### 📋 Spécifications
 
 Les spécifications de l'API comprennent :
 
@@ -32,13 +32,13 @@ Les spécifications de l'API comprennent :
 - Recommandations d'itinéraires personnalisées basées sur les préférences de l'utilisateur
 - Fonctionnalités de notation de sécurité et de signalement d'incidents
 
-## 🔄 Fonctionnement des Commits 
+##### 🔄 Fonctionnement des Commits 
 
-### ⚠️ Le plus important pour les commits !
+###### ⚠️ Le plus important pour les commits !
 
 Monter les changements et/ou modifications (staged changes) puis lancer : ⚠️ **./commit.sh** ⚠️ pour formater le commit correctement et lancer l'exécution automatique des tests.
 
-### Branches & Significations :
+###### Branches & Significations :
 
 - **feature/\<feature-name\> :** Utilisée pour le développement de nouvelles fonctionnalités.
 
@@ -48,7 +48,7 @@ Monter les changements et/ou modifications (staged changes) puis lancer : ⚠️
 
 - **production :** Version finale du code utilisée en production.
 
-### Méthode de Déploiement :
+###### Méthode de Déploiement :
 
 1. **Développement de Fonctionnalités :** Commencez par développer une fonctionnalité sur la branche feature/\<feature-name\>.
 
@@ -61,11 +61,11 @@ Monter les changements et/ou modifications (staged changes) puis lancer : ⚠️
 5. **Validation et Pull Request vers la Branche production :** Une fois les tests réussis sur la branche main, ouvrez une pull request pour fusionner avec la branche production.
 
 
-## 🛠 Mise en place
+##### 🛠 Mise en place
 
 Pour installer les dépendances nécessaires pour lancer le projet, suivez ces étapes :
 
-### 0. 🚀 Setup rapide pour linux
+###### 0. 🚀 Setup rapide pour linux
 
 ```bash
 ./setup.sh
@@ -73,7 +73,7 @@ Pour installer les dépendances nécessaires pour lancer le projet, suivez ces �
 
 Puis passer directement à l'étape 5
 
-### 1. 📦 Créer un Environnement Virtuel (Optionnel mais Recommandé)
+###### 1. 📦 Créer un Environnement Virtuel (Optionnel mais Recommandé)
 
 Il est recommandé d'utiliser un environnement virtuel pour isoler les dépendances de ce projet des autres projets Python sur votre système. Vous pouvez créer un nouvel environnement virtuel en utilisant `venv` ou `conda`, selon vos préférences.
 
@@ -98,7 +98,7 @@ Après avoir travaillé, vous pouvez désactiver l'environnement virtuel en util
 deactivate
 ```
 
-### 2. 📋 Installation des Dépendances
+###### 2. 📋 Installation des Dépendances
 
 Vous pouvez installer les dépendances à partir du fichier `requirements.txt` fourni avec le projet en utilisant `pip`. Assurez-vous que vous êtes dans le répertoire racine de votre projet où se trouve le fichier `requirements.txt`.
 
@@ -106,7 +106,7 @@ Vous pouvez installer les dépendances à partir du fichier `requirements.txt` f
 pip install -r requirements.txt
 ```
 
-### 3. ⚙️ Configuration de l'Environnement
+###### 3. ⚙️ Configuration de l'Environnement
 
 Créer un dossier `graphml`
 ```bash
@@ -119,14 +119,14 @@ PATH=/chemin/vers/saferide/graphml/networkBM.graphml
 PATH_UG=/chemin/vers/saferide/graphml/networkBMUG.graphml
 ```
 
-### 4. Création du graphe
+###### 4. Création du graphe
 Avant de lancer l'application, il faut créer le graphe
 
 ```bash
 python3 creation.py
 ```
 
-### 5. ▶️ Lancement du Projet
+###### 5. ▶️ Lancement du Projet
 
 Une fois les dépendances installées, l'environnement configuré et le graphe créé, vous pouvez lancer le projet en exécutant le script principal ou la commande spécifique à votre application.
 
